@@ -1,0 +1,33 @@
+@media (max-width: 992px){
+    .program-download{
+        max-width: 50%;
+    }
+
+       
+      
+       
+   }
+   
+   @media (max-width: 768px){
+    .div-block-program-info{
+        margin: 5%;
+    }
+
+    .div-day-time{
+        margin-right: 20px;
+    }
+
+    .div-day-info{
+        max-width: 70%;
+    }
+
+} 
+
+  
+
+     @media (max-width: 578px){
+        .program-download{
+            max-width: 70%;
+        }
+
+     }

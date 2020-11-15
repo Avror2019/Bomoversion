@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #000;
+    transition: 0.5s;
+  }
+  
+  a:hover{
+    color: #f8234a;
+    outline: none;
+    text-decoration: none;
+  }
+  
+/* Header */
+  .header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .div-header{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .logo img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .nav a{
+    margin: 0 7.5px;
+    line-height: 26px;
+  }
+ 
+  .button-registration{
+    background-color: #07a5d9;;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 100px;
+    display: block;
+  }
+
+  .button-registration:hover{
+    background-color: #0090CB;
+    color: black;
+    border: 1px solid blue;
+  }
+
+  .header-menu{
+    display: flex;
+    align-items: center;
+  
+  }
+
+  /*--------------------------------------------------------------
+  # Intro Section
+  --------------------------------------------------------------*/
+  #intro {
+    width: 100%;
+    height: 100vh;
+    background: url('../../image/first/introbg.jpg') top center;
+    background-size: cover;
+  }
+
+.div-header-background{
+    position: relative;
+    overflow: hidden;
+    background: rgba(146, 140, 140, 0.3);
+    height: 100vh;
+}
+
+  .intro-text{
+    text-align: center;
+    color: rgb(255, 254, 254, 1);
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 850px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 250px auto 0;
+  }
+
+  /* block info */
+.info-intro{
+    display: flex;
+    justify-content: center;
+    background: url('../../image/first/aboutbg.jpg') top center;
+    background-size: cover;
+}
+
+.info-none{
+   display: none;
+}
+
+.button-info{
+    display: block;
+    margin: 0 auto;
+    margin-top: 250px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 7.5px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.button-info:hover{
+    background-color: red;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+  .text-block{
+    margin: 50px 0;
+    text-align: justify;
+    max-width: 450px;
+    color: #fff;
+  }
+
+  h3{ 
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .span-info{
+    text-indent: 15px; 
+  }
+

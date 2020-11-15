@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+[
+	{ "date": "2020-09-21 10:15:20", "title": "Событие 1", "description": "Lorem Ipsum dolor set", "url": "./eventNumberOne.html" },
+	{ "date": "2020-09-21 10:15:20", "title": "Событие 2", "description": "Lorem Ipsum dolor set", "url": "./eventNumberOne.html" },
+	{ "date": "2020-09-01 10:15:20", "title": "Событие 3", "description": "Lorem Ipsum dolor set", "url": "./eventNumberOne.html" }
+=======
+[
+	{ "date": "2020-09-21 10:15:20", "title": "Событие 1", "description": "Lorem Ipsum dolor set", "url": "./eventNumberOne.html" },
+	{ "date": "2020-09-21 10:15:20", "title": "Событие 2", "description": "Lorem Ipsum dolor set", "url": "./eventNumberOne.html" },
+	{ "date": "2020-09-01 10:15:20", "title": "Событие 3", "description": "Lorem Ipsum dolor set", "url": "./eventNumberOne.html" }
+>>>>>>> 78b2fa1955c39641b1159bcd91b261aff802cc62
+]

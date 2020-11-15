@@ -1,0 +1,23 @@
+
+   @media (max-width: 992px){
+   .timer-text{
+           max-width: 250px;
+       }
+
+      
+       
+   }
+
+     @media (max-width: 578px){
+        .body-events{
+            flex-direction: column;
+        }
+
+        #contacts-calendar {
+            width: 50%;
+        }
+
+        .body-timer {
+            align-items: center;
+        }
+   } 

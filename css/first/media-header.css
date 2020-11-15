@@ -1,0 +1,51 @@
+@media (max-width: 1200px){
+    .div-header{
+        max-width: 960px;
+    }
+
+   }
+   @media (max-width: 992px){
+    .div-header{
+           max-width: 740px;
+       }
+
+       .header-menu{
+        padding-left: 5%;
+    }
+
+      
+       
+   }
+
+    @media (max-width: 768px){
+        .div-header{
+           max-width: 540px;
+       }
+
+       .button-registration{
+           display: none;
+       }
+   } 
+
+     @media (max-width: 578px){
+        .div-header{
+           max-width: 90%;
+       }
+
+       .logo{
+           display: none;
+       }
+       
+       .header-menu{
+           flex-direction: column;
+       }
+
+       .intro-text {
+        font-size: 24px;
+       }
+
+       .text-block{
+           margin: 5%;
+       }
+   } 
+   

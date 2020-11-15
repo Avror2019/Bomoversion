@@ -1,0 +1,37 @@
+.section__block__number {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: url(../../image/about/image5.jpg);
+    background-size: cover;
+}
+
+.div__block__numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.div__block__number__columns {
+    width: calc(100%/3);
+}
+
+.div__number__columns{
+    padding: 15%;
+    text-align: center;
+}
+
+.div__number__columns:hover{
+    cursor: pointer;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.number__columns__center{
+    align-self: center;
+}
+
+.number__columns__center:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}

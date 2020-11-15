@@ -1,0 +1,34 @@
+@media (max-width: 1200px){
+    .section-container{
+        max-width: 960px;
+    }
+
+   }
+   @media (max-width: 992px){
+    .section-container{
+           max-width: 740px;
+       }
+
+       .section-block{
+        flex-basis: 50%;
+       }
+       
+   }
+
+    @media (max-width: 768px){
+        .section-container{
+           max-width: 540px;
+       }
+
+   } 
+
+     @media (max-width: 578px){
+        .section-container{
+           max-width: 90%;
+       }
+
+       .section-block{
+        flex-basis: 100%;
+       }
+
+   } 

@@ -1,0 +1,44 @@
+ .section-sponsors{
+    background-color: rgb(236, 245, 158);
+}
+
+.sponsors-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.div-span-sponsors{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+ .sponsors-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo-images img{
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+@media (max-width: 578px){
+    .sponsors-container{
+       max-width: 90%;
+   }
+
+   .sponsors-logo{
+    flex-direction: column;
+    justify-content: center;
+}
+
+} 
+
+
+
+

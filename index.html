@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БОМО репродукция человека</title>
+    <link rel="stylesheet" href="css/main/slick.css">
+    <link rel="stylesheet" href="css/main/normalize.css">
+    <link rel="stylesheet" href="css/main/style.css">
+    <link rel="stylesheet" href="css/main/footer.css">
+    <link rel="stylesheet" href="css/main/block-timer-calendar.css">
+    <link rel="stylesheet" href="css/main/eventCalendar.css">
+    <link rel="stylesheet" href="css/main/eventCalendar_theme_responsive.css">
+    <link rel="stylesheet" href="css/main/media-header.css">
+    <link rel="stylesheet" href="css/main/media-block-events.css">
+    <link rel="stylesheet" href="css/main/media-block-news.css">
+    <link rel="stylesheet" href="css/main/media-block-calendar.css">
+    <link rel="stylesheet" href="css/main/media-section-treatment.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="header">
+        <div class="div-container">
+            <div class="container">
+                <div class="logo-header">
+                    <div class="logo">
+                        <img src="image/logo.png" alt="logo" class="logo">
+                    </div>
+
+                    <nav class="dws-menu">
+                        <ul>
+                            <li><a href="#" class="nav-link">Новости</a></li>
+                            <li><a href="#" class="nav-link">Библиотека</a>
+                                <ul>
+                                    <li><a href="#" class="nav-link">Клинические рекомендации</a></li>
+                                    <li><a href="#" class="nav-link">Протоколы лечения</a></li>
+                                    <li><a href="#" class="nav-link">Призентации</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html" class="nav-link">Об организации</a>
+                                <ul>
+                                    <li><a href="#" class="nav-link">Информация об организации</a></li>
+                                    <li><a href="#" class="nav-link">Приветственное слово правления</a></li>
+                                    <li><a href="#" class="nav-link">Регистрационные документы</a></li>
+                                    <li><a href="#" class="nav-link">Спонсорская помощь</a></li>
+                                    <li><a href="#" class="nav-link">Контакты</a></li>
+                                    <li><a href="#" class="nav-link">Обратная связь</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="nav-link">Для специалистов</a>
+                                <ul>
+                                    <li><a href="#" class="nav-link">Мероприятия</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Архив</a></li>
+                                            <li><a href="#" class="nav-link">Предстоящие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Онлайн обучение</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Расписание вебинаров</a></li>
+                                            <li><a href="#" class="nav-link">Записи прошедших вебинаров</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">ОЭКО</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Информация о центрах</a></li>
+                                            <li><a href="#" class="nav-link">Врачи центров</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">О беременности</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Протоколы ведения беременности</a></li>
+                                            <li><a href="#" class="nav-link">Разбор клинических случаев</a></li>
+                                            <li><a href="#" class="nav-link">Списки роддомов</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Про УЗИ</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Разбор клинических случаев</a></li>
+                                            <li><a href="#" class="nav-link">Протоколы исследования с <br> фиксацией
+                                                    картинки</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Клинический случай</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Контрацепция</a></li>
+                                            <li><a href="#" class="nav-link">Здоровье 40+</a></li>
+                                            <li><a href="#" class="nav-link">Реабилитация после родов</a></li>
+                                            <li><a href="#" class="nav-link">Миома матки</a></li>
+                                            <li><a href="#" class="nav-link">Эндометриоз</a></li>
+                                            <li><a href="#" class="nav-link">Лечение шейки матки</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Личный кабинет</a></li>
+                                    <li><a href="#" class="nav-link">Онлайн консультирование</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="nav-link">Для пациентов</a>
+                                <ul>
+                                    <li><a href="#" class="nav-link">Мероприятия</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Архив</a></li>
+                                            <li><a href="#" class="nav-link">Предстоящие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Онлайн обучение</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Расписание вебинаров</a></li>
+                                            <li><a href="#" class="nav-link">Записи прошедших вебинаров</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">ОЭКО</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Информация о центрах</a></li>
+                                            <li><a href="#" class="nav-link">Врачи центров</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">О беременности</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Протоколы ведения беременности</a></li>
+                                            <li><a href="#" class="nav-link">Разбор клинических случаев</a></li>
+                                            <li><a href="#" class="nav-link">Списки роддомов</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Про УЗИ</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Разбор клинических случаев</a></li>
+                                            <li><a href="#" class="nav-link">Протоколы исследования с фиксацией
+                                                    картинки</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Клинический случай</a>
+                                        <ul>
+                                            <li><a href="#" class="nav-link">Контрацепция</a></li>
+                                            <li><a href="#" class="nav-link">Здоровье 40+</a></li>
+                                            <li><a href="#" class="nav-link">Реабилитация после родов</a></li>
+                                            <li><a href="#" class="nav-link">Миома матки</a></li>
+                                            <li><a href="#" class="nav-link">Эндометриоз</a></li>
+                                            <li><a href="#" class="nav-link">Лечение шейки матки</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Личный кабинет</a></li>
+                                    <li><a href="#" class="nav-link">Онлайн консультирование</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="nav-link">Вступить</a>
+                                <ul>
+                                    <li><a href="#" class="nav-link">Заявление на вступление</a></li>
+                                    <li><a href="#" class="nav-link">Реквизиты для оплаты взноса</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="header-text">
+                    <h1 class="header-h1">Белорусское общественное
+                        медицинское объединение репрорудукции человека</h1>
+                    <span class="header-span">
+                        Sed ut perspiciatis unde omnis
+                        iste natus error sit voluptatem accusantium
+                        doloremque laudantium.
+                    </span>
+                    <button class="header-button" type="submit" onClick="location.href='about.html'" target="_blank">Об
+                        организации</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- slider start -->
+
+    <section class="slider-top">
+        <div class="slider">
+            <div class="slider__item" style="background-image: url(image/slider1.jpg);"></div>
+            <div class="slider__item" style="background-image: url(image/slider2.jpg);"></div>
+            <div class="slider__item" style="background-image: url(image/slider3.jpg);"></div>
+        </div>
+    </section>
+
+    <!-- slider end -->
+
+    <section class="section-blocks">
+        <div class="section-container">
+            <div class="section-block">
+                <img src="image/icons1.svg" alt="" class="icons">
+                <span class="icons-name">
+                    Best Treatment
+                </span>
+                <span class="icons-text">
+                    Sed ut perspiciatis
+                    unde omnis iste natus error
+                    sit voluptatem accusantium
+                    doloremque laudantium.
+                </span>
+            </div>
+
+            <div class="section-block">
+                <img src="image/icons2.svg" alt="" class="icons">
+                <span class="icons-name">
+                    Emergency Help
+                </span>
+                <span class="icons-text">
+                    Sed ut perspiciatis
+                    unde omnis iste natus error
+                    sit voluptatem accusantium
+                    doloremque laudantium.
+                </span>
+            </div>
+
+            <div class="section-block">
+                <img src="image/icons3.svg" alt="" class="icons">
+                <span class="icons-name">
+                    Medical Staff
+                </span>
+                <span class="icons-text">
+                    Sed ut perspiciatis
+                    unde omnis iste natus error
+                    sit voluptatem accusantium
+                    doloremque laudantium.
+                </span>
+            </div>
+
+            <div class="section-block">
+                <img src="image/icons4.svg" alt="" class="icons">
+                <span class="icons-name">
+                    Qualified Doctors
+                </span>
+                <span class="icons-text">
+                    Sed ut perspiciatis
+                    unde omnis iste natus error
+                    sit voluptatem accusantium
+                    doloremque laudantium.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- timer + calendar -->
+
+    <section class="calendar-events">
+        <div class="body-events">
+            <div class="body-timer">
+                <h3 class="timer-text">До ближайшего мероприятия осталось:</h3>
+                <div class="timer">
+                    <p id="demo"></p>
+                </div>
+                <buttons class="footer-buttons button-mailing-timer" id="contacts-calendar">Связаться с нами</buttons>
+            </div>
+
+            <div class="body-calendar">
+                <div id="eventCalendar" style="width: 300px; margin: 50px auto;"></div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- events -->
+
+
+    <section class="section-events">
+        <div class="container-events-max">
+            <h2 class="section-events-h2">Мероприятия</h2>
+            <h3 class="small-events">Green above he cattle god saw day multiply under fill in the cattle fowl a all,
+                living, tree word link available in the service for subdue fruit.</h3>
+            <div class="multiple-items container-events">
+
+                <div class="block-events">
+                    <a href="http://eventbomorch.tilda.ws/" class="block-events-adress">
+                        <img src="image/event3.png" alt="" class="events-img">
+                        <span class="events-span">
+                            IV Международный междисциплинарный конгресс "Инновационные технологии в репродуктивной медицине"
+                        </span>
+                        <span class='events-span-describtion'>
+                            <br> Конгресс уже четвёртый год подряд объединяет специалистов по: акушерству, гинекологии, репродуктивной медицине, генетике и пренатальной диагностике, которые делятся своими знаниями, наработками и полезной информацией о новых продуктах и методах. В 2020 году по причине эпидемической обстановки по COVID-19 в мире конгресс состоится в онлайн формате.
+                        </span>
+                    </a>
+                </div>
+
+                <div class="block-events">
+                    <a href="http://www.vebinarbomorch.tilda.ws/#rec190097133" class="block-events-adress">
+                        <img src="image/event1.png" alt="" class="events-img">
+                        <span class="events-span">
+                            Сложные вопросы в практике врача акушера-гинеколога
+                        </span>
+                        <span class='events-span-describtion'>
+                            <br> На вебинаре будут рассмотрены вопросы диагностики и лечения наследственных гемостазиопатий и важные аспекты профилактики акушерских иммунологических состояний
+                        </span>
+                    </a>
+                </div>
+
+                <div class="block-events">
+                    <a href="http://www.vebinarvmkbomorch.tilda.ws/" class="block-events-adress">
+                        <img src="image/event2.png" alt="" class="events-img">
+                        <span class="events-span">
+                            ВМК В АКУШЕРСТВЕ
+                        </span>
+                        <span class='events-span-describtion'>
+                            <br> ВМК В АКУШЕРСТВЕ. СМЕНА ПАРАДИГМЫ. МНЕНИЕ ЭКСПЕРТОВ СМЕЖНЫХ СПЕЦИАЛЬНОСТЕЙ
+                        </span>
+                    </a>
+                </div>
+
+
+
+                <!-- <div class="block-events">
+                    <a href="#" class="block-events-adress">
+                        <img src="image/newsImg4.svg" alt="" class="events-img">
+                        <span class="events-span">
+                            Название Мероприятия
+                        </span>
+                        <span class='events-span-describtion'>
+                            <br> Описание Мероприятия, которое состоится в каком-нибудь месте
+                            с какими-нибудь людьми и в какое-нибудь время
+                        </span>
+                    </a>
+                </div> -->
+
+                <!-- <div class="block-events">
+                    <a href="#" class="block-events-adress">
+                        <img src="image/newsImg5.svg" alt="" class="events-img">
+                        <span class="events-span">
+                            Название Мероприятия
+                        </span>
+                        <span class='events-span-describtion'>
+                            <br> Описание Мероприятия, которое состоится в каком-нибудь месте
+                            с какими-нибудь людьми и в какое-нибудь время
+                        </span>
+                    </a>
+                </div>
+
+                <div class="block-events">
+                    <a href="#" class="block-events-adress">
+                        <img src="image/newsImg6.svg" alt="" class="events-img">
+                        <span class="events-span">
+                            Название Мероприятия
+                        </span>
+                        <span class='events-span-describtion'>
+                            <br> Описание Мероприятия, которое состоится в каком-нибудь месте
+                            с какими-нибудь людьми и в какое-нибудь время
+                        </span>
+                    </a>
+                </div> -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- news container -->
+
+    <section class="container-news">
+        <div class="container-events-max">
+
+            <div class="container-news-div">
+                <h3 class="text-news">Свежие новости</h3>
+                <span class="small-news-text">Do not miss anything topic about the event</sman>
+            </div>
+
+            <div class="div-block-container">
+                <div class="block-div-duble">
+                    <a href="http://eventbomorch.tilda.ws/">
+                        <div class="div-block-img">
+
+                            <img src="image/event3.png" class="image-div-news" alt="">
+                            <div class="div-block-span">
+                                <span>IV Международный междисциплинарный конгресс "Инновационные технологии в репродуктивной медицине"</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="block-div-duble">
+                    <div class="div-block-img-two">
+                        <a href="#">
+                            <div class="div-block-img">
+
+                                <img src="image/latest2.jpg" alt="">
+                                <div class="div-block-span">
+                                    <span>Improve You Business Cards And Enchan Your Sales <br>19th May, 2019</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="div-block-img-two">
+                        <a href="#">
+                            <div class="div-block-img">
+
+                                <img src="image/latest3.jpg" alt="">
+                                <div class="div-block-span">
+                                    <span>Improve You Business Cards And Enchan Your Sales <br>19th May, 2019</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-blocks-first">
+                <div class="footer-colomns">
+                    <h3 class="footer-h3">БОМО репродукции человека</h3>
+                    <p class="text-decoration ">УНП 805003765</p>
+                    <p class="text-decoration">223035, Минская обл., Минский р-н, аг.Ратомка, ул. Новая 20А, каб. 2</p>
+
+                </div>
+                <div class="footer-colomns">
+                    <h3 class="footer-h3">Контакты:</h3>
+                    <p class="text-decoration icons-number"><a class="footer-a-hover"
+                            href="tel:+375259001773">+375(25)-900-17-73 </a></p>
+                    <a class="text-decoration footer-a-hover" href="mailto:bomorch@tut.by"
+                        class="email">bomorch@tut.by</a>
+                    <a class="footer-a-hover" href="#" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                    <a class="footer-a-hover" href="#" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></a>
+
+                </div>
+            </div>
+
+            <div class="footer-blocks-columns buttons-footer">
+                <buttons class="footer-buttons button-mailing" id="cart-button">Рассылка</buttons>
+                <buttons class="footer-buttons button-mailing" id="contacts-form">Оставить номер для связи</buttons>
+            </div>
+
+            <div class="footer-copyright">
+                <p class="copyright">Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
+                    made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="mypage.html" target="_blank">Busov
+                        Eugene</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- button subscribe -->
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="div-modal-header">
+                    <form action="php/mailSub.php" method="POST">
+                        <fieldset>
+                            <legend>Подписка на новости</legend>
+                            <div class="div-form">
+                                <input type="text" value="" name="user_name_subscribe"
+                                    placeholder="Имя Вашей организации">
+                                <input type="E-mail" name="user_email_subscribe" placeholder="Введите ваш e-mail">
+                                <button type="submit" class="button-subscribe">Подписаться</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="div-modal-header">
+                    <button class="close">&times;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end  -->
+
+    <!-- button form obratka-->
+    <div class="modal-contacts">
+        <div class="modal-dialog-two">
+            <div class="modal-header">
+                <div class="div-modal-header">
+                    <form action="php/mailForm.php" method="POST">
+                        <fieldset>
+                            <legend>Оставьте контакты для обратной связи</legend>
+                            <div class="div-form-two">
+                                <input type="text" value="" name="user_name" placeholder="Ваше Имя">
+                                <input type="text" value="" name="user_name_company"
+                                    placeholder="Имя Вашей организации">
+                                <input type="tel" name="user_phone" placeholder="+375(99)999 99 99">
+                                <button type="submit" class="button-subscribe">Отправить</button>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="div-modal-header">
+                    <button class="close-button">&times;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end -->
+
+    <!-- button Calendar-->
+    <div class="modal-contacts-calendar">
+        <div class="modal-dialog-two">
+            <div class="modal-header">
+                <div class="div-modal-header">
+                    <form action="php/mailForm.php" method="POST">
+                        <fieldset>
+                            <legend>Оставьте контакты для обратной связи</legend>
+                            <div class="div-form-two">
+                                <input type="text" value="" name="user_name" placeholder="Ваше Имя">
+                                <input type="text" value="" name="user_name_company"
+                                    placeholder="Имя Вашей организации">
+                                <input type="tel" name="user_phone" placeholder="+375(99)999 99 99">
+                                <button type="submit" class="button-subscribe">Отправить</button>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="div-modal-header">
+                    <button class="close-button-calendar">&times;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/jquery.eventCalendar.js"></script>
+    <script src="js/calendar.js"></script>
+</body>
+
+</html>

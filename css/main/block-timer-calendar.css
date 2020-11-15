@@ -1,0 +1,69 @@
+.body-events{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: all 0.3s;
+}
+
+.body-calendar{
+    background: inherit;
+}
+
+.calendar-events{
+    background: rgba(75, 206, 103, 1.0);
+background: -webkit-linear-gradient(bottom, rgba(75, 206, 103, 1.0), rgba(27, 132, 249, 1.0));
+background: -moz-linear-gradient(bottom, rgba(75, 206, 103, 1.0), rgba(27, 132, 249, 1.0));
+background: linear-gradient(to top, rgba(75, 206, 103, 1.0), rgba(27, 132, 249, 1.0));
+opacity: 0.9;
+}
+
+
+
+
+
+.timer{
+    max-width: 350px;
+    background-color: inherit;
+    margin-bottom: 25px;
+}
+
+.body-timer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.timer-text {
+    color: rgba(220, 232, 223, 1.0);
+    color: -webkit-linear-gradient(bottom, rgba(220, 232, 223, 1.0), rgba(27, 249, 158, 1.0));
+    color: -moz-linear-gradient(bottom, rgba(220, 232, 223, 1.0), rgba(27, 249, 158, 1.0));
+    color: linear-gradient(to top, rgba(220, 232, 223, 1.0), rgba(27, 249, 158, 1.0));
+    font-size: 30px;
+    margin-bottom: 25px;
+    max-width: 350px;
+    text-align: center;
+}
+
+#demo{
+    text-align: center;
+    color: rgba(220, 232, 223, 1.0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button-mailing-timer{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    background: #051736;
+    transition: 0.3s;
+}
+
+.button-mailing-timer:hover{
+    background: #ff0033;
+    color: #0095dd;
+    border: 1px solid #051736;
+    cursor: pointer;
+}

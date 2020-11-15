@@ -1,0 +1,28 @@
+.section-adress{
+    width: 100%;
+}
+
+.div-section-adress{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-data-adress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin: 5%;
+}
+
+.div-data-adress span{
+    padding: 15px 0;
+}
+
+.div-map{
+    margin-bottom: 45px;
+    width: 75%;
+}

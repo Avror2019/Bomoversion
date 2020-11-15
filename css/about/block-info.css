@@ -1,0 +1,62 @@
+.info-block{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 525px;
+    padding-top: 5%;
+    align-self: flex-start;
+  }
+
+  .header-h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .header-span {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 20px;
+  }
+
+  .block__backgraund__one{
+      background: url(../../image/about/image1.jpg);
+      background-size: cover;
+      padding: 10%;
+  }
+
+  .block__backgraund__two{
+    background: url(../../image/about/image2.jpg);
+    background-size: cover;
+  }
+
+  .block__backgraund__three{
+    background: url(../../image/about/image3.jpg);
+    background-size: cover;
+  }
+
+  .div__block__info{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+
+  .div__block__info__three,
+  .div__block__info__two{
+      width: 50%;
+      padding: 10%;
+  }
+
+  .block__backgraund__four{
+    background: url(../../image/about/image4.jpg);
+    background-size: cover;
+  }

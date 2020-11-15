@@ -1,0 +1,26 @@
+@media (max-width: 1200px){
+    .container-events-max{
+        max-width: 960px;
+    }
+
+   }
+   @media (max-width: 992px){
+    .container-events-max{
+           max-width: 740px;
+       }
+
+   }
+
+    @media (max-width: 780px){
+        .container-events-max{
+           max-width: 540px;
+       }
+
+   } 
+
+     @media (max-width: 578px){
+        .container-events-max{
+           max-width: 90%;
+       }
+
+   } 

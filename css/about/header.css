@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+}
+
+.div-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: url(../../image/slider1.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo-header {
+  margin: 2% 0;
+}
+
+.logo {
+  height: 30px;
+  display: none;
+}
+
+/* style for menu */
+
+.dws-menu>ul {
+  display: flex;
+  justify-content: center;
+}
+
+.dws-menu>ul li {
+  position: relative;
+}
+
+.dws-menu>ul li a {
+  display: block;
+  padding: 15px 10px 15px 10px;
+  font-size: 16px;
+  color: #454547;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.dws-menu li a:hover {
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+  background-color: rgba(228, 218, 224, 0.5)
+}
+
+/*sub menu*/
+.dws-menu li ul {
+  position: absolute;
+  min-width: 150px;
+  display: none;
+}
+
+.dws-menu li>ul li a {
+  padding: 10px;
+  text-transform: none;
+}
+
+.dws-menu li>ul li ul {
+  position: absolute;
+  left: -200px;
+  width: 200px;
+  top: 0;
+}
+
+.dws-menu li:hover>ul {
+  display: block;
+}
+
+/* the end */
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 10px;
+  transition: 0.5s;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+  background-size: 100% 2px;
+}
+
+/*  */
